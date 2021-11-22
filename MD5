@@ -1,0 +1,13 @@
+d5e4b98541e54eb13776cae4dff41ee0 *DESCRIPTION
+abb01086db49f030321a386d5e5a48b8 *NAMESPACE
+3c8db73b2e78b8f656d41e428dcb1a67 *R/grid_group.R
+9133fff362eae24a7cd3faf13f019691 *R/grid_panel.R
+47554e5871946e9419bb3d963d0a4b60 *README.md
+1663c3d8d4ca09fae883b0a1dc641421 *build/vignette.rds
+686bd1e516e0d1a8ebecc9ff8b7289d4 *inst/doc/gggrid.R
+0c3b3313d686088f3b2009ccaf91b01a *inst/doc/gggrid.Rmd
+79b105385699c5997b3b3e77f63c4a30 *inst/doc/gggrid.html
+a34184c202761b19d60c6bc766635f2e *man/grid_panel.Rd
+0c3b3313d686088f3b2009ccaf91b01a *vignettes/gggrid.Rmd
+8da57fd9de3cfcf93ead8d2b63bbe0ab *vignettes/gggrid.bib
+739b23d904ea87234ede72f8f8609445 *vignettes/minard-troops.txt
