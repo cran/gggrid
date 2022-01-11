@@ -56,3 +56,18 @@ ggplot(minard,
     coord_fixed(2, clip="off") +
     grid_group(path)
 
+## ----fig.width=6, fig.height=2------------------------------------------------
+path_key <- function(data, ...) {
+    vwlineGrob(0:1, c(.5, .5), w=unit(c(.1, .2), "in"),
+               gp=gpar(col=data$colour, 
+                       fill=adjustcolor(data$colour, alpha=.5)))
+}
+ggplot(minard) + 
+    scale_size(range=c(.01, .5), guide="none") +
+    coord_fixed(2, clip="off") +
+    grid_group(path, 
+               aes(x=long, y=lat, size=survivors, colour=direction, 
+                   group=interaction(group, direction)),
+               show.legend=TRUE, 
+               key_glyph=path_key)
+
